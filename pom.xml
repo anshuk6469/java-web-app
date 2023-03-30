@@ -16,6 +16,15 @@
 	<properties>
 		<java.version>11</java.version>
 	</properties>
+	
+	   <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0bsaswmwymhn-artifactory-primary-0-snapshots</name>
+        <url>https://koenig.jfrog.io/artifactory/libs-snapshot-local</url>
+     </snapshotRepository>
+      </distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
